@@ -1,1 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+  <title>Fuel Finder Pro UK Privacy Policy</title>
+
+  <style>
+    :root {
+      --primary: #0a84ff;
+      --text: #1c1c1e;
+      --secondary: #6e6e73;
+      --background: #f5f5f7;
+      --card: #ffffff;
+      --border: #e5e5ea;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 40px 20px;
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text",
+        "Helvetica Neue", sans-serif;
+      background: var(--background);
+      color: var(--text);
+      line-height: 1.7;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 28px;
+      padding: 42px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.04);
+    }
+
+    h1 {
+      margin-top: 0;
+      margin-bottom: 8px;
+      font-size: 2.4rem;
+      line-height: 1.1;
+    }
+
+    .effective-date {
+      color: var(--secondary);
+      font-size: 0.95rem;
+      margin-bottom: 32px;
+    }
+
+    h2 {
+      margin-top: 42px;
+      margin-bottom: 12px;
+      font-size: 1.4rem;
+      color: var(--primary);
+    }
+
+    h3 {
+      margin-top: 26px;
+      margin-bottom: 10px;
+      font-size: 1.05rem;
+    }
+
+    p {
+      margin: 0 0 18px;
+      color: #2c2c2e;
+    }
+
+    ul {
+      margin: 0 0 22px 20px;
+      padding: 0;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    .footer {
+      margin-top: 48px;
+      padding-top: 24px;
+      border-top: 1px solid var(--border);
+      color: var(--secondary);
+      font-size: 0.95rem;
+    }
+
+    a {
+      color: var(--primary);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 700px) {
+      body {
+        padding: 20px 14px;
+      }
+
+      .card {
+        padding: 28px 22px;
+        border-radius: 22px;
+      }
+
+      h1 {
+        font-size: 2rem;
+      }
+
+      h2 {
+        font-size: 1.2rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="card">
+
+      <h1>Privacy Policy for Fuel Finder Pro UK</h1>
+
+      <div class="effective-date">
+        Effective Date: 9 May 2026
+      </div>
+
+      <p>
+        Welcome to <strong>Fuel Finder Pro UK</strong> (“Fuel Finder Pro UK”, “we”, “our”, or “us”).
+      </p>
+
+      <p>
+        This Privacy Policy explains how Fuel Finder Pro UK collects, uses, and protects information when you use the application on iPhone and CarPlay-enabled devices.
+      </p>
+
+      <h2>1. Information We Collect</h2>
+
+      <h3>Location Information</h3>
+
+      <p>
+        Fuel Finder Pro UK uses your device location to:
+      </p>
+
+      <ul>
+        <li>show nearby fuel stations</li>
+        <li>calculate distance and route information</li>
+        <li>improve station sorting accuracy</li>
+        <li>support navigation features</li>
+      </ul>
+
+      <p>
+        Location data is only accessed with your permission through Apple’s iOS permission system.
+      </p>
+
+      <p>
+        We do not continuously track your location in the background unless explicitly permitted by iOS and required for app functionality.
+      </p>
+
+      <h3>Usage Information</h3>
+
+      <p>
+        The app may collect limited anonymous diagnostic and performance information, including:
+      </p>
+
+      <ul>
+        <li>app crashes</li>
+        <li>loading performance</li>
+        <li>API/network errors</li>
+        <li>device compatibility information</li>
+      </ul>
+
+      <p>
+        This information is used solely to improve app reliability and performance.
+      </p>
+
+      <h3>Fuel Pricing &amp; Station Data</h3>
+
+      <p>
+        Fuel Finder Pro UK uses publicly available UK fuel pricing and station information, including data provided through the UK fuel price transparency scheme and associated station data providers.
+      </p>
+
+      <h2>2. Advertising</h2>
+
+      <p>
+        Fuel Finder Pro UK may display advertisements within the app.
+      </p>
+
+      <p>
+        Advertising providers may collect limited technical information such as:
+      </p>
+
+      <ul>
+        <li>device type</li>
+        <li>advertising identifiers</li>
+        <li>approximate location</li>
+        <li>app interaction data</li>
+      </ul>
+
+      <p>
+        This information may be used to provide relevant advertising and measure advertising performance.
+      </p>
+
+      <p>
+        Advertising services may include:
+      </p>
+
+      <ul>
+        <li>Google AdMob</li>
+      </ul>
+
+      <p>
+        You can control advertising permissions through your iOS privacy settings.
+      </p>
+
+      <h2>3. How We Use Information</h2>
+
+      <p>
+        We use collected information to:
+      </p>
+
+      <ul>
+        <li>provide nearby fuel station results</li>
+        <li>improve fuel price accuracy</li>
+        <li>maintain app functionality</li>
+        <li>improve performance and reliability</li>
+        <li>support navigation and routing features</li>
+        <li>monitor service stability and errors</li>
+      </ul>
+
+      <p>
+        We do not sell personal information to third parties.
+      </p>
+
+      <h2>4. Data Storage</h2>
+
+      <p>
+        Most app preferences are stored locally on your device.
+      </p>
+
+      <p>
+        We aim to minimise the amount of personal data collected and retained.
+      </p>
+
+      <p>
+        Some technical information may be temporarily processed through third-party infrastructure required for app operation, including map services, fuel data services, analytics, and advertising providers.
+      </p>
+
+      <h2>5. Third-Party Services</h2>
+
+      <p>
+        Fuel Finder Pro UK may rely on third-party services including:
+      </p>
+
+      <ul>
+        <li>Apple Maps</li>
+        <li>Google Maps</li>
+        <li>Waze</li>
+        <li>Google AdMob</li>
+      </ul>
+
+      <p>
+        These services operate under their own privacy policies and terms.
+      </p>
+
+      <h2>6. Your Choices</h2>
+
+      <p>
+        You can:
+      </p>
+
+      <ul>
+        <li>disable location access in iOS Settings</li>
+        <li>manage advertising permissions in iOS Privacy settings</li>
+        <li>uninstall the app at any time</li>
+      </ul>
+
+      <p>
+        Some features may not function correctly without location access.
+      </p>
+
+      <h2>7. Children’s Privacy</h2>
+
+      <p>
+        Fuel Finder Pro UK is not directed toward children under 13 years of age.
+      </p>
+
+      <p>
+        We do not knowingly collect personal information from children.
+      </p>
+
+      <h2>8. Security</h2>
+
+      <p>
+        We take reasonable measures to help protect information and maintain app security. However, no electronic transmission or storage system can be guaranteed to be completely secure.
+      </p>
+
+      <h2>9. Changes to This Privacy Policy</h2>
+
+      <p>
+        We may update this Privacy Policy periodically.
+      </p>
+
+      <p>
+        Updated versions will be posted with a revised effective date.
+      </p>
+
+      <p>
+        Continued use of the app after changes become effective constitutes acceptance of the updated Privacy Policy.
+      </p>
+
+      <h2>10. Contact</h2>
+
+      <p>
+        For privacy-related questions or requests, contact:
+      </p>
+
+      <p>
+        <strong>Fuel Finder Pro UK Support</strong><br />
+        Email: FuelFinderProUK@gmail.com
+      </p>
+
+      <div class="footer">
+        © 2026 Fuel Finder Pro UK. All rights reserved.
+      </div>
+
+    </div>
+  </div>
+</body>
+</html>
