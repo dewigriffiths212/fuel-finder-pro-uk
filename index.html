@@ -4,15 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Fuel Finder Pro UK</title>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
     <style>
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
+
         :root {
             --bg: #050816;
             --card: rgba(255,255,255,0.06);
@@ -21,6 +24,7 @@
             --secondary: rgba(255,255,255,0.72);
             --accent: #3b82f6;
         }
+
         body {
             font-family: 'Inter', sans-serif;
             background:
@@ -31,20 +35,24 @@
             min-height: 100vh;
             line-height: 1.6;
         }
+
         a {
             text-decoration: none;
             color: inherit;
         }
+
         .container {
             width: min(1180px, 92%);
             margin: 0 auto;
         }
+
         nav {
             display: flex;
             justify-content: space-between;
             align-items: center;
             padding: 28px 0;
         }
+
         .brand {
             display: flex;
             align-items: center;
@@ -52,17 +60,20 @@
             font-weight: 700;
             font-size: 1.05rem;
         }
+
         .brand img {
             width: 42px;
             height: 42px;
             border-radius: 12px;
         }
+
         .nav-links {
             display: flex;
             gap: 28px;
             color: var(--secondary);
             font-size: 0.95rem;
         }
+
         .hero {
             display: grid;
             grid-template-columns: 1.1fr 0.9fr;
@@ -70,23 +81,27 @@
             align-items: center;
             padding: 80px 0 120px;
         }
+
         .hero-text h1 {
             font-size: clamp(3rem, 7vw, 5.6rem);
             line-height: 0.95;
             letter-spacing: -0.06em;
             margin-bottom: 28px;
         }
+
         .hero-text p {
             color: var(--secondary);
             font-size: 1.2rem;
             max-width: 580px;
             margin-bottom: 38px;
         }
+
         .buttons {
             display: flex;
             gap: 18px;
             flex-wrap: wrap;
         }
+
         .button-primary,
         .button-secondary {
             padding: 14px 24px;
@@ -94,31 +109,270 @@
             font-weight: 600;
             transition: all 0.25s ease;
         }
+
         .button-primary {
             background: linear-gradient(135deg, #2563eb, #60a5fa);
             color: white;
             box-shadow: 0 10px 30px rgba(59,130,246,0.35);
         }
+
         .button-primary:hover {
             transform: translateY(-2px);
         }
+
         .button-secondary {
             background: var(--card);
             border: 1px solid var(--border);
             backdrop-filter: blur(10px);
             color: white;
         }
+
         .phone-stack {
             position: relative;
             display: flex;
             justify-content: center;
         }
+
         .phone-stack img {
             width: 260px;
             border-radius: 38px;
             border: 1px solid rgba(255,255,255,0.1);
             box-shadow: 0 40px 80px rgba(0,0,0,0.45);
         }
+
         .phone-stack img:nth-child(2) {
             position: absolute;
-           
+            top: 50px;
+            right: -40px;
+            width: 230px;
+        }
+
+        .section {
+            padding: 80px 0;
+        }
+
+        .section-title {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        .section-title h2 {
+            font-size: clamp(2rem, 5vw, 3.2rem);
+            letter-spacing: -0.04em;
+            margin-bottom: 16px;
+        }
+
+        .section-title p {
+            color: var(--secondary);
+            max-width: 720px;
+            margin: 0 auto;
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 24px;
+        }
+
+        .feature-card {
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: 28px;
+            padding: 30px;
+            backdrop-filter: blur(18px);
+        }
+
+        .feature-card h3 {
+            font-size: 1.2rem;
+            margin-bottom: 14px;
+        }
+
+        .feature-card p {
+            color: var(--secondary);
+        }
+
+        .screenshots {
+            display: flex;
+            gap: 24px;
+            overflow-x: auto;
+            padding-bottom: 12px;
+        }
+
+        .screenshots img {
+            width: 240px;
+            border-radius: 30px;
+            border: 1px solid rgba(255,255,255,0.08);
+            box-shadow: 0 24px 60px rgba(0,0,0,0.35);
+            flex-shrink: 0;
+        }
+
+        footer {
+            padding: 60px 0 40px;
+            border-top: 1px solid rgba(255,255,255,0.08);
+            margin-top: 80px;
+        }
+
+        .footer-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .footer-links {
+            display: flex;
+            gap: 24px;
+            color: var(--secondary);
+        }
+
+        @media (max-width: 980px) {
+            .hero {
+                grid-template-columns: 1fr;
+                text-align: center;
+                gap: 60px;
+            }
+
+            .hero-text p {
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            .buttons {
+                justify-content: center;
+            }
+
+            .phone-stack img:nth-child(2) {
+                display: none;
+            }
+
+            .nav-links {
+                display: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <nav>
+            <div class="brand">
+                <img src="assets/logo.png" alt="Fuel Finder Pro UK Logo">
+                <span>Fuel Finder Pro UK</span>
+            </div>
+
+            <div class="nav-links">
+                <a href="privacy.html">Privacy</a>
+                <a href="terms.html">Terms</a>
+                <a href="support.html">Support</a>
+            </div>
+        </nav>
+
+        <section class="hero">
+            <div class="hero-text">
+                <h1>Find cheaper fuel nearby.</h1>
+
+                <p>
+                    Fuel Finder Pro UK helps you discover nearby petrol stations,
+                    compare live UK fuel prices, and save money with fast,
+                    intelligent location-aware search.
+                </p>
+
+                <div class="buttons">
+                    <a href="#screenshots" class="button-primary">View Screenshots</a>
+                    <a href="support.html" class="button-secondary">Get Support</a>
+                </div>
+            </div>
+
+            <div class="phone-stack">
+                <img src="assets/screenshot1.png" alt="Fuel Finder Screenshot">
+                <img src="assets/screenshot2.png" alt="Fuel Finder Screenshot">
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="section-title">
+                <h2>Designed for UK drivers.</h2>
+
+                <p>
+                    Fast, accurate and lightweight — built to make finding fuel prices
+                    effortless while keeping the experience clean and intuitive.
+                </p>
+            </div>
+
+            <div class="features">
+                <div class="feature-card">
+                    <h3>Live Fuel Prices</h3>
+
+                    <p>
+                        View up-to-date UK petrol and diesel pricing from nearby stations.
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <h3>Smart Nearby Search</h3>
+
+                    <p>
+                        Discover the closest stations instantly using intelligent location awareness.
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <h3>Fast & Lightweight</h3>
+
+                    <p>
+                        Built natively for iPhone with smooth performance and minimal clutter.
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <h3>Clean Modern Design</h3>
+
+                    <p>
+                        A polished experience inspired by modern Apple-style app interfaces.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="screenshots">
+            <div class="section-title">
+                <h2>See the app in action.</h2>
+
+                <p>
+                    Replace these screenshots with your latest app images.
+                </p>
+            </div>
+
+            <div class="screenshots">
+                <img src="assets/screenshot1.png" alt="App Screenshot">
+                <img src="assets/screenshot2.png" alt="App Screenshot">
+                <img src="assets/screenshot3.png" alt="App Screenshot">
+                <img src="assets/screenshot4.png" alt="App Screenshot">
+            </div>
+        </section>
+
+        <footer>
+            <div class="footer-content">
+                <div>
+                    <strong>Fuel Finder Pro UK</strong><br>
+
+                    <span style="color: rgba(255,255,255,0.6);">
+                        Smarter UK fuel price discovery.
+                    </span>
+                </div>
+
+                <div class="footer-links">
+                    <a href="privacy.html">Privacy Policy</a>
+                    <a href="terms.html">Terms</a>
+                    <a href="support.html">Support</a>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+</body>
+</html>
